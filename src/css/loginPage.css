@@ -1,0 +1,51 @@
+.card {
+    width: 27rem;
+    border-radius: 1rem;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #ced4da;
+}
+
+.form-control.is-invalid:focus {
+    box-shadow: none;
+    border-color: #cacaca !important;
+    outline: none;
+}
+
+.is-invalid {
+    border-color: #cacaca !important;
+    box-shadow: none;
+    outline: none;
+}
+
+.hover-Account:hover {
+    color: rgb(255, 148, 148) !important;
+}
+
+.input-group .form-control {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.input-group .toggle-password-btn {
+    cursor: pointer;
+    padding: 0.375rem 0.75rem;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ced4da;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+
+.input-group .form-control.is-invalid + .toggle-password-btn {
+    border-top-right-radius: 0.5rem !important; 
+    border-bottom-right-radius: 0.5rem !important;
+}
+
+.input-group .toggle-password-btn:focus {
+    box-shadow: none;
+    outline: none;
+}
